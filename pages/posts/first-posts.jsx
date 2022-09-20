@@ -30,14 +30,15 @@ export default function LinkClassnameExample() {
         </Link>
       </h2>
     <Link href="/">
-      <a className="foo" target="_blank" rel="noopener noreferrer">
-        Hello World00000000000000
+      <a >
+        Jump to /  home
       </a>
 
     </Link>
-        <Link href="/posts">
-      <a className="foo" target="_blank" rel="noopener noreferrer">
-        Hello World33333333333
+    <p></p>
+    <Link href="/posts">
+      <a className="foo" >
+        Jump to /posts
       </a>
     </Link>
 

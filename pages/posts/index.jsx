@@ -17,19 +17,27 @@ export default function LinkClassnameExample() {
   // To add attributes like className, target, rel, etc.
   // add them to the <a> tag, not to the <Link> tag.
   return (
-    <>
+    <div>
     <Link href="/">
       <a>
-        Hello test 1111
+        Hello test 1111 jump to /
       </a>
     </Link>
-        <Link href="/posts/first-posts">
+    
+    <p></p>
+    
+    <Link href="/posts/first-posts">
       <a>
-        Hello test 22222
+        Hello test 22222333 jump to /posts/first-posts
       </a>
     </Link>
+
+
+    <p></p>
+
     <YourComponent/>
-    </>
+    </div>
+
   )
 }
 

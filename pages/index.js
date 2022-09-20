@@ -23,7 +23,7 @@ export default function Home() {
       </h1>
 
       <h1 className="title">
-        Learn <a href="/posts/first-posts">Back Home</a>
+        Learn <a href="/posts/first-posts">jump to /posts/first-posts</a>
       </h1>
 
 
