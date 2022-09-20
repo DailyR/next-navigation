@@ -19,12 +19,12 @@ export default function LinkClassnameExample() {
   return (
     <>
     <Link href="/">
-      <a className="foo" target="_blank" rel="noopener noreferrer">
+      <a>
         Hello test 1111
       </a>
     </Link>
         <Link href="/posts/first-posts">
-      <a className="foo" target="_blank" rel="noopener noreferrer">
+      <a>
         Hello test 22222
       </a>
     </Link>
