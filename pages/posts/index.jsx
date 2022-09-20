@@ -19,17 +19,17 @@ export default function LinkClassnameExample() {
   return (
     <div>
     <Link href="/">
-      <a>
+      
         Hello test 1111 jump to /
-      </a>
+      
     </Link>
     
     <p></p>
     
     <Link href="/posts/first-posts">
-      <a>
+     
         Hello test 22222333 jump to /posts/first-posts
-      </a>
+      
     </Link>
 
 
