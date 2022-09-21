@@ -1,6 +1,17 @@
 // Example: Adding className with <Link>
 import Link from 'next/link'
 import Image from 'next/image';
+import axios from 'axios'
+
+
+async function getPosts() {
+
+  const result = await axios.get('https://jsonplaceholder.typicode.com/posts?_limit=5')
+
+  return result.data
+
+};
+
 
 const YourComponent = () => (
   <Image
