@@ -19,19 +19,19 @@ async function getPosts() {
 function TestPage(){
 
   //const [posts, setPosts] = React.useState([])
-  console.log("2222222")
+  //console.log("2222222")
 
   async function initial() {
 
     const result = await getPosts()
-    console.log("11111111111111")
+    //console.log("11111111111111")
     console.log({result})
     console.log(result.text)
     //setPosts(result)
   }
   initial()
 
-  console.log("33333333333333")
+  //console.log("33333333333333")
 
 };
 

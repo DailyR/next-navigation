@@ -8,7 +8,10 @@ import Layout from '../../components/layout';
 
 async function getPosts() {
 
-  const result = await axios.get('http://127.0.0.1:3000/api/hello')
+  //axios.get get方法测试
+  //const result = await axios.get('http://127.0.0.1:3000/api/hello')
+  //用不同的id参数修改了api里面的处理函数，对应不同的if else分句
+  const result = await axios.get('http://127.0.0.1:3000/api/post-rec?test=test111&id=3')
   console.log(result)
   return result.data
 
@@ -17,23 +20,21 @@ async function getPosts() {
 function TestPage(){
 
   //const [posts, setPosts] = React.useState([])
-  console.log("2222222")
+  console.log("1111111111111")
 
   async function initial() {
 
     const result = await getPosts()
-    console.log("11111111111111")
+    console.log("222222222222")
     console.log({result})
     console.log(result.text)
     //setPosts(result)
   }
-  initial()
-
   console.log("33333333333333")
+  initial()
+  console.log("5555555555555")
 
 };
-
-
 
 
 const YourComponent = () => (
@@ -47,7 +48,7 @@ const YourComponent = () => (
 );
 
 
-export default function LinkClassnameExample() {
+export default function LinkClassnameExample111() {
   // To add attributes like className, target, rel, etc.
   // add them to the <a> tag, not to the <Link> tag.
   return (
