@@ -11,7 +11,7 @@ async function getPosts() {
   //axios.get get方法测试
   //const result = await axios.get('http://127.0.0.1:3000/api/hello')
   //用不同的id参数修改了api里面的处理函数，对应不同的if else分句
-  const result = await axios.get('http://127.0.0.1:3000/api/post-rec?test=test111&id=3')
+  const result = await axios.get('http://127.0.0.1:3000/api/post-rec?test=test111&id=2')
   console.log(result)
   return result.data
 
