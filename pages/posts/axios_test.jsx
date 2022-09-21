@@ -5,7 +5,9 @@ import axios from 'axios'
 import React from 'react'
 import Layout from '../../components/layout';
 
-// 这里其实实现了简单的数据获取，利用axios
+// 这里其实实现了简单的数据获取，利用axios axios.get获取数据
+// 使用了async 异步函数的写法
+// 这个文件相当于一个备份，一般来说不进行实例修改，具体修改可以在pages/index.jsx里面进行尝试
 async function getPosts() {
 
   const result = await axios.get('http://127.0.0.1:3000/api/hello')
@@ -74,7 +76,7 @@ export default function LinkClassnameExample() {
           Jump to /posts [link:/posts]
         </a>
       </Link>
-      
+
 
     <p></p>
     <TestPage/>
