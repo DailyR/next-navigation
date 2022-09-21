@@ -5,7 +5,7 @@ import axios from 'axios'
 import React from 'react'
 import Layout from '../../components/layout';
 
-
+// 这里其实实现了简单的数据获取，利用axios
 async function getPosts() {
 
   const result = await axios.get('http://127.0.0.1:3000/api/hello')
@@ -69,13 +69,12 @@ export default function LinkClassnameExample() {
     </Link>
 
     <p></p>
-
-    <Link href="/posts/axios_test">
-     
-        Hello2 axios_test 333 [link:/posts/axios_test]
+      <Link href="/posts">
+        <a className="foo" >
+          Jump to /posts [link:/posts]
+        </a>
+      </Link>
       
-    </Link>
-
 
     <p></p>
     <TestPage/>

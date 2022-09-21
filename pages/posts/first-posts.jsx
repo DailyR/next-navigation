@@ -23,35 +23,36 @@ export default function LinkClassnameExample() {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
-      <h1>First Post</h1>
+      <Layout>
+      <h1>First Post - First Page Test</h1>
       <h2>
         <Link href="/">
-          <a>Back to home</a>
+          <a>Back to home [link:/]</a>
         </Link>
       </h2>
     <Link href="/">
       <a >
-        Jump to /  home
+        Jump to home [link:/]
       </a>
 
     </Link>
     <p></p>
-    <Link href="/posts">
-      <a className="foo" >
-        Jump to /posts
-      </a>
-    </Link>
-
+      <Link href="/posts">
+        <a className="foo" >
+          Jump to /posts [link:/posts]
+        </a>
+      </Link>
+    </Layout>
 
     <Layout>
       <Head>
         <title>First123 Post</title>
       </Head>
       
-      <h1>First123 Post</h1>
+      <h1><Link href="/">Back to home [link:/]</Link></h1>
       <h2>
         <Link href="/">
-          <a>Back to home123</a>
+          <a>Back to home [link:/]</a>
         </Link>
       </h2>
     </Layout>
