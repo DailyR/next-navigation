@@ -32,3 +32,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## 后续
+
+- 因为构建了vercel的自动化项目，所以有了这个库repository,但是vercel是被墙了，这就导致了一些不能直接访问的麻烦，所以想了想，还是把dev test工作放回git-DailyCode仓库目录下了 —— 2022-09-22 09:47:05 by DailyR
